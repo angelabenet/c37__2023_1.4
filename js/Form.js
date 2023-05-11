@@ -30,10 +30,9 @@ class Form {
     this.playButton.mousePressed(() => {
       this.input.hide();
       this.playButton.hide();
-      var message = `
-      Olá ${this.input.value()}
-      </br>espere o outro jogador entrar...`;
-      this.greeting.html(message);
+     // ADICIONE A VARIÁVEL QUE VAI MOSTRAR UMA MENSAGEM
+      
+      
       playerCount += 1;
       player.name = this.input.value();
       player.index = playerCount;
